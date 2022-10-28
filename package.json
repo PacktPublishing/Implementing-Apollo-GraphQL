@@ -1,0 +1,25 @@
+{
+  "name": "implementing-apollo-graphql",
+  "version": "1.0.0",
+  "description": "Sample application to accompany the book",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PacktPublishing/Implementing-Apollo-GraphQL.git"
+  },
+  "author": "Kenny Hammerlund",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PacktPublishing/Implementing-Apollo-GraphQL/issues"
+  },
+  "homepage": "https://github.com/PacktPublishing/Implementing-Apollo-GraphQL#readme",
+  "dependencies": {
+    "@apollo/server": "^4.0.4",
+    "graphql": "^16.6.0"
+  }
+}
