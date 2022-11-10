@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Sample application to accompany the book",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "tsc && node ./dist/index.js"
+    "start": "tsc && node ./dist/index.js",
+    "start:dev": "ts-node ./src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,9 @@
   "homepage": "https://github.com/PacktPublishing/Implementing-Apollo-GraphQL#readme",
   "dependencies": {
     "@apollo/server": "^4.0.4",
-    "graphql": "^16.6.0"
+    "graphql": "^16.6.0",
+    "graphql-tag": "^2.12.6",
+    "ts-node": "^10.9.1"
   },
   "devDependencies": {
     "@types/node": "^18.11.9",
